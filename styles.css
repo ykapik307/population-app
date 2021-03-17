@@ -79,7 +79,7 @@ body{
 @media screen and (max-width: 600px) {
     .cn{
         max-width: 180px;
-       margin-left: 90px;
+       margin-left: 105px;
         
         font-size: medium;
     }
