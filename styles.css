@@ -78,7 +78,7 @@ body{
 }
 @media screen and (max-width: 600px) {
     .cn{
-        max-width: 180px;
+        max-width: 168px;
        margin-left: 105px;
         
         font-size: medium;
