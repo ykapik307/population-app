@@ -1,55 +1,34 @@
-<html <!DOCTYPE html>
+<!DOCTYPE html>
+<html lang="en">
 
 <head>
-    <meta charset="utf-8">
+    <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title></title>
-    <meta name="description" content="">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous"> -->
-    <link rel="stylesheet" href="styles.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Population-app</title>
+    <link href="styles.css" rel="stylesheet">
 </head>
 
 <body>
-    <script src="app.js">
-    </script>
-    <main>
+    <div class="wrapper">
         <div class="container">
-            <div class="heading">
-                <h4>Tip Calculator<h4></h4>
-            </div>
-            <div class="bill">
-                <form id="myform">
-                    <p id="kk2">How much was your bill?</p>
-                    <span id="sign">₹</span>
-                    <input type="text" id="cost" placeholder="Bill Amount"><br>
-                    <p id="kk1">How was your service?</p>
-                    <select id="Serve">
-                        <option value="Choose" selected disabled>--Choose an Option--</option> 
-                        <option value="Outstanding">30%-Outstanding</option>
-                        <option value="Good">20%-Good</option>
-                        <option value="Ok">15%-It was Ok</option>
-                        <option value="Bad">10%-Bad</option>
-                        <option value="Terrible">5%-Terrible</option>
-                    </select>
-                    <p id="kk"> How many people are sharing the bill?</p>
-                    <input type="text" id="Numbers" placeholder="Number of People">
-                   <br><br>
-                    <button  type="button" onclick="myFunction()" id="calc">CALCULATE!</button>
-                </form>
-
-            </div>
-            <br>
-           <div class="results">
-            <p id="tip"></p>
-            <p id="demo"></p>
-            <p id="total"></p>
-           </div>
+            <form>
+                <input type="text" class="cn" placeholder="Enter the country Name">
+            </form>
+            <button type="button" class="sub">Submit</button>
         </div>
-    </main>
+        <div class="results">
+
+            <p class="res-pop"></p>
+            <p class="ranking-pop"></p>
+            <p class="worldShare"></p>
 
 
+        </div>
 
+    </div>
+
+    <script src="app.js"></script>
 </body>
 
 </html>
